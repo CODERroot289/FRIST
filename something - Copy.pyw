@@ -26,11 +26,8 @@ menubar.add_command(label="Information",command=lambda:info(0))
 
 frame.geometry("300x425")
 frame.resizable(False,False)
-frame.iconbitmap("favicon.ico")
+
 frame.title("Calculator(MPG)")
-frame.image = Image.open('bgcalculator1.png')
-frame.python_image = ImageTk.PhotoImage(frame.image)
-hlo = Label(frame, image=frame.python_image).pack()
 #icon= os.path.join(sys.path[0],'C:/Users/user/Desktop/pythonproject/bgcalculator.png')
 #img = PhotoImage(file="Calculator.ico")
 #frame.iconphoto(False, img)
@@ -715,5 +712,5 @@ frame.mainloop()
 
 
 
-# Completed the normal calculator in 9th/3/2023 at 10:54pm night
+# Completed the normal calculator in 9th/7/2022 at 10:54pm night
 
